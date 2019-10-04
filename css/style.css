@@ -1,0 +1,126 @@
+body {
+	background: lightgrey;
+	font-family: "Arial", sans-serif;
+	font-size: 14px;
+	line-height: 1.4;
+	margin: 0;
+	padding: 10px;
+	height: 100%;
+}
+
+html {
+	height: 100%;
+}
+
+.forms {
+	background: -moz-linear-gradient(#fff, #999);
+	background: -webkit-linear-gradient(#fff, #999);
+	background: -o-linear-gradient(#fff, #999);
+	font-family: "Verdana", sans-serif;
+	background-color: white;
+	border: 1px solid black;
+	padding: 20px;
+	border-radius: 10px;
+	text-align: left;
+	width: 200px;
+	margin-top: 80px;
+	position: relative;
+	left: 50%;
+	transform: translate(-50%, 0);
+}
+
+h2,h3 {
+	text-align: center;
+}
+
+header {
+	display: flex;
+	background-color: darkgray;
+	margin: 0px auto 0px;
+}
+
+input[type="submit"] {
+	position: relative;
+	left: 50%;
+	transform: translate(-50%, 0);
+}
+
+main {
+	display: flex;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.main_menu {
+	display: block;
+	margin: auto;
+	padding: 0;
+	list-style: none;
+	border: 5px solid darkgray;
+}
+
+.main_menu a {
+	display: block;
+	font-size: 18px;
+	font-weight: bold;
+	margin-left: -1px;
+	padding: 20px 40px;
+	color: black;
+	text-decoration: none;
+	background-color: darkgray;
+	border-left: 1px solid #e5e5e5;
+}
+
+.main_menu a:hover {
+	background-color: #eeeeee;
+}
+
+.main_menu li {
+	display: inline-block;
+	margin-right: -4px;
+}
+
+.main_menu :last-child > a {
+	border-right: 1px solid #e5e5e5;
+}
+
+.message {
+	color: black;
+	text-align: center;
+	font-weight: bold;
+}
+.error {
+	color: red;
+}
+.paginator {
+	display: block;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.paginator a {
+	display: inline-block;
+	font-size: 16px;
+	font-weight: bold;
+	margin-left: -1px;
+	padding: 15px;
+	color: black;
+	text-decoration: none;
+	background-color: darkgray;
+	border-left: 1px solid #e5e5e5;
+}
+
+.paginator a:hover {
+	background-color: #eeeeee;
+}
+
+.paginator li {
+	display: inline-block;
+	margin-right: -4px;
+}
+
+.paginator :last-child > a {
+	border-right: 1px solid #e5e5e5;
+}
